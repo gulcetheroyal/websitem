@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #add8e6;
+    text-align: center;
+}
+
+h1 {
+    color: #333366;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ffc0cb;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 40%;
+    height: auto;
+    border-radius: 15px; /* Fotoğraf köşelerini yuvarlar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge ekler */
+  }
+  img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Animasyonu ekler */
+  }
+  
+  img:hover {
+    transform: scale(1.1); /* Fotoğrafın üzerine gelindiğinde büyür */
+  }
+  
